@@ -1,0 +1,31 @@
+img {
+    border-radius: 50%;
+    height: 250px;
+}
+
+.jumbotron {
+    margin: 5%;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 1350px) {
+    img {
+        border-radius: 50%;
+        height: 200px;
+    }
+    .jumbotron {
+        margin: 5%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    p.lead {
+        font-size: 14px;
+    }
+    p {
+        font-size: 10x;
+    }
+}

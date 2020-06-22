@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #a6bfd4 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 18px;
+    margin: 0;
+    z-index: 10;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}

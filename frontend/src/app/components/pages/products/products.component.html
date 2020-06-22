@@ -1,0 +1,43 @@
+<div class="container-fluid">
+
+    <div class="container col-12">
+        <div class="row justify-content-center pt-3">
+            <div class="row justify-content-center col-12 col-md-8 col-xl-8 my-2 px-0 py-2">
+                <h4> Productos </h4>
+            </div>
+        </div>
+
+        <div class="row justify-content-center center">
+            <table class="table table-responsive-md col-12 col-sm-12 col-md-12 col-xl-8 center">
+                <thead>
+                    <tr>
+                        <td scope="col">Nº</td>
+                        <td scope="col">Nombre</td>
+                        <td scope="col">Fecha</td>
+                        <td scope="col">Sku</td>
+                        <td scope="col">Peso</td>
+                        <td scope="col">Altura</td>
+                        <td scope="col">Ancho</td>
+                        <td scope="col">Origen</td>
+                        <td scope="col">Minimo</td>
+                        <td scope="col">Demora</td>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let item of prods.default; let i = index">
+                    <tr>
+                        <td scope="row">{{ item.number }}</td>
+                        <td scope="row">{{ item.name }}</td>
+                        <td scope="row">{{ item.date }}</td>
+                        <td scope="row">{{ item.sku }}</td>
+                        <td scope="row">{{ item.weight }}</td>
+                        <td scope="row">{{ item.height }}</td>
+                        <td scope="row">{{ item.width }}</td>
+                        <td scope="row">{{ item.origin }}</td>
+                        <td scope="row">{{ item.minimun }}</td>
+                        <td scope="row">{{ item.delay }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

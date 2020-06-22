@@ -1,0 +1,22 @@
+thead tr td {
+    background-color: #6988a1 !important;
+    color: white;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 350px) {
+    td {
+        font-size: 12px;
+        padding: 3px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    td {
+        font-size: 15px;
+        padding: 4px;
+    }
+}
