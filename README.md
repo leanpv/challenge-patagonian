@@ -19,7 +19,6 @@ Script BD:
 ####   PRIMARY KEY (id)
 #### ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
-#### PORT=3000
 #### //-------------- fin del script --------------//
 
 # Pasos a seguir una vez descargado el repositorio:
